@@ -44,8 +44,26 @@ Open positions in our business team.
 </div>
  
   </div>      
+  <hr></hr>
+  <div className='mark'>
+<div className='markhead'>
+  Marketting
+</div>
+<div className='markdesc'>
+Open positions in our business team.
+</div>
+ 
+  </div> 
+  <div class="widecards" >
+  
+  <h2>Outside Sales Representative</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisilaborum <br>
+    </br>exceue officia officiis tempore!
+  </p>
+</div>
     </div>
-    <hr></hr>
+   
 </>
 
   )
