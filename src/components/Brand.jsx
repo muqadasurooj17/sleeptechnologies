@@ -9,6 +9,7 @@ export default function  Navbar ()
     <div className='brandcont'>
       <button className='brandbtn'>
         Brand</button>
+        </div>
 <div className='row'>
   <div class="cards" >
   <img src={card1} alt="Description of the image" style={{width:"400px", height:"max-content"}}/>
@@ -19,19 +20,19 @@ export default function  Navbar ()
       </br>exceue officia officiis tempore!
     </p>
   </div>
-  
   <div class="cards" >
   <img src={card2} alt="Description of the image" style={{width:"400px", height:"max-content"}}/>
-  
     <h2>Read More</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisilaborum <br>
       </br>exceue officia officiis tempore!
     </p>
   </div>
+    </div>
 
-    </div>
-    </div>
+    <h1> hello</h1>
+  
+   
     </>
   )
 }
