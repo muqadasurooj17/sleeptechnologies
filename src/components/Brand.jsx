@@ -11,17 +11,25 @@ export default function  Navbar ()
         Brand</button>
 <div className='row'>
   <div class="cards" >
-  <img src={myImage} alt="Description of the image" style={{width:"100%", height:"max-content"}}/>
+  <img src={card1} alt="Description of the image" style={{width:"400px", height:"max-content"}}/>
   
     <h2>Read More</h2>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisilaborum exceue officia officiis tempore!
+      Lorem ipsum dolor sit amet consectetur adipisilaborum <br>
+      </br>exceue officia officiis tempore!
     </p>
   </div>
-  <div class="cards">
-    <h2>Column 2</h2>
-    <p>Some text..</p>
+  
+  <div class="cards" >
+  <img src={card2} alt="Description of the image" style={{width:"400px", height:"max-content"}}/>
+  
+    <h2>Read More</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisilaborum <br>
+      </br>exceue officia officiis tempore!
+    </p>
   </div>
+
     </div>
     </div>
     </>
