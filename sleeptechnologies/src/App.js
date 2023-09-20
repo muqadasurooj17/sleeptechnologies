@@ -14,7 +14,10 @@ function App() {
    <>
    <Router>
   <Routes>
+    
     <Route exact path='/' element={<Navbar/>}/>
+    <Route exact path='/' element={<Hero/>}/>
+
   </Routes>
     </Router>
    </>

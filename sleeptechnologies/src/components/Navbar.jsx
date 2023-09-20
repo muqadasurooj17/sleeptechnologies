@@ -10,6 +10,8 @@ export default function  Navbar ()
         <div className="leftside">
             <img src={Logo} alt='logo here'/>
         </div>
+
+        
         <div className='rightside'>
         <Link to="/"> Home </Link>
         <Link to="/Brand"> Brand </Link>
@@ -17,16 +19,6 @@ export default function  Navbar ()
         <Link to="/Contact"> Contact</Link>
         </div>
     </div>
-  //   <div className="collapse navbar-collapse" id="navbarNav">
-  //   <ul className="navbar-nav">
-  //     <li className="nav-item">
-  //       <Link className="nav-link active" aria-current="page" to="/">Home</Link>
-  //     </li>
-  //     <li className="nav-item">
-  //       <Link className="nav-link" to="/login">Login</Link>
-  //     </li>
-  //   </ul>
-  // </div>
   );
 }
 
