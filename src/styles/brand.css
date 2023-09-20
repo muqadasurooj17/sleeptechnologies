@@ -1,0 +1,27 @@
+.brandcont{
+    margin-top: 100px;
+}
+.brandbtn{
+    margin-left: 200px;
+    background-color: aquamarine;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+    width: 70px;
+    border-radius: 30px;
+    border: 1px black;
+}
+.cards {
+    float: right;
+    width: 33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
