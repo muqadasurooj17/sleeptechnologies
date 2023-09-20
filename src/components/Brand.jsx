@@ -2,7 +2,7 @@ import React from 'react'
 import card1 from '../images/brands-1-min.jpg';
 import card2 from '../images/brands-2-min.jpg';
 import "../styles/brand.css";
-export default function  Navbar ()
+export default function  Brand ()
 {
   return (
     <>
@@ -28,11 +28,12 @@ export default function  Navbar ()
       </br>exceue officia officiis tempore!
     </p>
   </div>
-    </div>
-
-    <h1> hello</h1>
+  <div class="empty" >
   
-   
-    </>
+  </div>      
+    </div>
+    <hr></hr>
+</>
+
   )
 }

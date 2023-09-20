@@ -9,6 +9,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Mission from './components/Mission';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
 <Hero/>
 <img src={myImage} alt="Description of the image" style={{width:"100%", height:"max-content"}}/>
 <Brand/>
-
+<Mission/>
     </Router>
    </>
     </div>

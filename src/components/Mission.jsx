@@ -1,7 +1,7 @@
 import React from 'react'
 
 import "../styles/Mission.css";
-export default function  Navbar ()
+export default function  Mission ()
 {
   return (
     <>
@@ -10,11 +10,15 @@ export default function  Navbar ()
         Mission</button>
 
     </div>
-    <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam animi eveniet dolorum <br>
-</br> deleniti impedit at modi commodi >doloremque.
-    </p>
+    <div className='missionhead'>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam animi eveniet dolorum <br>
+</br> deleniti impedit at modi commodi doloremque.
+    </div>
    
+    <div className='missionsub'>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam animi eveniet dolorum <br>
+</br> deleniti impedit at modi commodi doloremque.
+    </div>
     </>
   )
 }
