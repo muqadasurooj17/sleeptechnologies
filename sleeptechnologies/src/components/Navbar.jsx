@@ -11,12 +11,13 @@ export default function  Navbar ()
             <img src={Logo} alt='logo here'/>
         </div>
 
-        
+
         <div className='rightside'>
-        <Link to="/"> Home </Link>
-        <Link to="/Brand"> Brand </Link>
-        <Link to="/Mission"> Mission </Link>
-        <Link to="/Contact"> Contact</Link>
+        <Link to="/hero"> Home</Link>
+        <Link to="/brand"> Brand </Link>
+        <Link to="/mission"> Mission </Link>
+        <Link to="/carrer"> Career </Link>
+        <Link to="/contact"> Contact</Link>
         </div>
     </div>
   );

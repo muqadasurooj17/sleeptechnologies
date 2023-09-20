@@ -13,12 +13,8 @@ function App() {
     <div className="App">
    <>
    <Router>
-  <Routes>
-    
-    <Route exact path='/' element={<Navbar/>}/>
-    <Route exact path='/' element={<Hero/>}/>
-
-  </Routes>
+    <Navbar/>
+<Hero/>
     </Router>
    </>
     </div>

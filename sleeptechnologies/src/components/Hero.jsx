@@ -5,8 +5,7 @@ const Hero = () => {
     <div>
       
       <h1>
-        hero section</h1>
-        </div>
+        hero</h1>       </div>
   )
 }
 
