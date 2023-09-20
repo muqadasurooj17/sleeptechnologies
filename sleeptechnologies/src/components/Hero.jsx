@@ -1,11 +1,15 @@
 import React from 'react'
-
+import  "../styles/Hero.css";
 const Hero = () => {
   return (
     <div>
-      
-      <h1>
-        hero</h1>       </div>
+      <div className='heroclass'>
+        <h1 className='description'> 
+        Revolutionary sleep technology.<br></br>
+Superior comfort and support.
+        </h1>
+        </div>  
+          </div>
   )
 }
 

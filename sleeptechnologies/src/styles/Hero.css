@@ -1,1 +1,16 @@
-background-image: linear-gradient(to right top, #42275a, #4f2f5e, #5c3863, #684168, #734b6d);
+.heroclass{
+    background-image: url("../images/bg.jpg");
+    opacity: 0.7;
+    width: 100%;
+height: 600px;
+
+}
+.description{
+    padding:280px;
+    text-align: center;
+    align-items: center;
+color: white;
+font-style: normal;
+font-size: x-large;
+font-weight: bolder;
+}
