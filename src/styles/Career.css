@@ -1,0 +1,11 @@
+.brandbtn{
+    margin-left: 200px;
+    background-color: aquamarine;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+    width: 70px;
+    border-radius: 30px;
+    border: 1px black;
+}
