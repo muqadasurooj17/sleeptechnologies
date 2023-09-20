@@ -13,15 +13,19 @@
     border: 1px black;
 }
 .cards {
+  
     float: right;
-    width: 33%;
+    width: 30%;
     padding: 5px;
     height: 400px;
+  }
+  .cards img{
+    display: flex;
+    justify-content: right;
   }
   
   /* Clear floats after the columns */
   .row:after {
     content: "";
-    display: table;
     clear: both;
   }
