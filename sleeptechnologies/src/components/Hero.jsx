@@ -1,6 +1,8 @@
 import React from 'react'
 import  "../styles/Hero.css";
-const Hero = () => {
+
+export default function  Hero ()
+{
   return (
     <div>
       <div className='heroclass'>
@@ -12,5 +14,3 @@ Superior comfort and support.
           </div>
   )
 }
-
-export default Hero
