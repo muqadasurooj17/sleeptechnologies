@@ -1,11 +1,11 @@
 import React from 'react'
-import Logo from "../assets/pizzaLogo.png";
+import Logo from "../images/logo.png";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className='navbar'>
         <div className='leftside'>
-            <img src={logo}/>
+            <img src={Logo} alt='logo here'/>
         </div>
         <div className='rightside'>
             <Link to="/">Home</Link>
