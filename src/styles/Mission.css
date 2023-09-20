@@ -1,18 +1,30 @@
 .missionhead{
     flex-direction: column;
 text-transform: capitalize;
-font-weight: bolder;
-font-size: large;
+font-weight: normal;
+font-size: xx-large;
 margin-top: 50px;
 text-align: left;
 display: flex;
 margin-left: 100px;
+margin-bottom: 200px;
+}
+.missionsubhead{
+  flex-direction: column;
+  text-transform: lowercase;
+  font-weight: normal;
+  font-size: large;
+  margin-top: 50px;
+  text-align: left;
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 200px;
 }
 
 .missioncont{
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex: 2;
   }
   .missioncont .leftside {
@@ -27,8 +39,11 @@ margin-left: 100px;
   .missioncont .rightside {
     flex-direction: column;
     width:max-content;
-    
     height: 100%;
     display: flex;
     text-align: right;
+    justify-content: right;
+  }
+  hr{
+    margin-top: 70px;
   }
