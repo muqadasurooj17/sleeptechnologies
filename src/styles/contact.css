@@ -12,6 +12,9 @@ align-items: center;
 justify-content: center;
 
 }
+.brandcont{
+  margin-top: 100px;
+}
 .content h1{
     font-weight: bolder;
     font-size: xx-large;

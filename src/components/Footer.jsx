@@ -20,11 +20,7 @@ export default function  Footer ()
         </div>
       
         <div className="footer-links">
-          <ul className="social-icons">
-            <li><Link href="#"><i className="fab fa-facebook"></i></Link></li>
-            <li><Link href="#"><i className="fab fa-twitter"></i></Link></li>
-            <li><Link href="#"><i className="fab fa-instagram"></i></Link></li>
-          </ul>
+         
           <ul className="main-links">
             <li><Link to="#">Home</Link></li>
             <li><Link to="#">About</Link></li>

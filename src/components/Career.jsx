@@ -54,6 +54,7 @@ export default function Brand() {
           <div className="markhead">Customer Service</div>
           <div className="markdesc">Open positions in our business team.</div>
         </div>
+        <hr></hr>
       </div>
     </>
   );

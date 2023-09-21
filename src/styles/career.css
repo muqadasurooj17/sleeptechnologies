@@ -21,7 +21,10 @@ margin-right: 100px;
     margin-left: 200px;
     
   }
-
+.row hr{
+  margin-top: 150px;
+  position: relative;
+}
   .marketting{
     display: flex;
     margin-right: 100px;
