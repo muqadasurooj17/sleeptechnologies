@@ -30,10 +30,10 @@
 
   }
   .footer-logo img {
-    width: 200px;
-    height: 150px;
+    width: auto;
+    height: 70px; 
     margin: 20px;
-    align-items: center;
+    align-items: left;
   }
   
   .social-icons {

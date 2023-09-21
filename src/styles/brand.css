@@ -3,12 +3,13 @@
 }
 .brandbtn{
     margin-left: 200px;
-    background-color: aquamarine;
+    background-color:  rgb(204, 206, 205);
     text-transform: uppercase;
     text-align: center;
     padding: 10px;
     height: 40px;
-    width: 100px;
+    font-weight: bold;
+    width: max-content;
     border-radius: 30px;
     border: 1px black;
 }

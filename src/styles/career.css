@@ -9,6 +9,17 @@ margin-right: 100px;
     border-radius: 20px;
     margin-bottom: 30px;
   }
+  .applybtn{
+    align-items: left;
+    justify-content: end;
+    background-color: rgb(204, 206, 205);
+    text-align: center;
+    padding: 10px;
+    width: max-content;
+    border-radius: 40px;
+   
+}
+
   .content{
         flex-direction: column;
     text-transform: capitalize;

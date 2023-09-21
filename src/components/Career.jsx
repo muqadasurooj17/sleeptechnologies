@@ -14,6 +14,7 @@ export default function Brand() {
           Want to make an impact on people’s lives creating the best sleeping{" "}
           <br></br>experience? Join the team — we’re hiring!
         </p>
+      
       </div>
 
       <div className="row">
@@ -23,6 +24,9 @@ export default function Brand() {
             Lorem ipsum dolor sit amet consectetur adipisilaborum <br></br>
             exceue officia officiis tempore!
           </p>
+          <div className="applybtn">
+        <div className="appltbtn">Apply Now</div>
+      </div>
         </div>
         <div class="widecards">
           <h2>Outside Sales Representative</h2>
@@ -30,7 +34,10 @@ export default function Brand() {
             Lorem ipsum dolor sit amet consectetur adipisilaborum <br></br>
             exceue officia officiis tempore!
           </p>
-        </div>
+          <div className="applybtn">
+        <div className="appltbtn">Apply Now</div>
+      </div>
+              </div>
 
         <div className="marketting">
           <div className="markhead">Marketting</div>
