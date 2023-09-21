@@ -1,4 +1,4 @@
-.widecards {
+ .widecards {
     float: right;
     width: 50%;
     height: max-content;
@@ -69,7 +69,6 @@ margin-right: 100px;
   flex-direction: column;
 }
 .cuswidecards {
-    
     float: right;
     width: 50%;
     height: max-content;
@@ -79,41 +78,37 @@ margin-right: 100px;
     border: 1px solid rgb(216, 216, 216);
     border-radius: 20px;
     margin-bottom: 30px;
-  }
-/* .customer{
-    display: flex;
-    margin-right: 100px;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    padding: 20px;
-    margin: 0 100px;
+  } 
 
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .content {
+    margin-left: 10px; /* Adjust margin for mobile */
   }
 
+  .marketing {
+    margin: 0 10px; /* Adjust margin for mobile */
+  }
 
-.cushead{
-    margin-top: 100px;
-    flex-direction: column;
-    text-transform: capitalize;
-    font-weight: bold;
-    font-size: x-large;
-    text-align: right;
-    display: flex;
-    
+  .markhead,
+  .markdesc {
+    text-align: left; /* Align text left for mobile */
+  }
+
+  .applybtn {
+    width: 50%;
+  }
+
+  .widecards,
+  .cuswidecards {
+    width: 100%;
+    margin-right: 0;
+    padding-left: 10px;
+  }
 }
-.seprator{
-    margin-top: 300px;
-  }
 
-.cushead .cusdesc{
-    flex-direction: column;
-    text-transform: lowercase;
-    font-weight: bold;
-    font-size: large;
-    margin-top: 300px;
-    text-align: right;
-    position: relative;
 
-    display: flex;
 
-} */
+
+

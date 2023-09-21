@@ -1,44 +1,90 @@
-.brandcont{
-    margin-top: 100px;
+/* .brandcont {
+  margin-top: 100px;
 }
-.brandbtn{
-    margin-left: 200px;
-    background-color:  rgb(204, 206, 205);
-    text-transform: uppercase;
-    text-align: center;
-    padding: 10px;
-    height: 40px;
-    font-weight: bold;
-    width: max-content;
-    border-radius: 30px;
-    border: 1px black;
+.brandbtn {
+  margin-left: 200px;
+  background-color: rgb(204, 206, 205);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  height: 40px;
+  font-weight: bold;
+  width: max-content;
+  border-radius: 30px;
+  border: 1px black;
 }
-
-.seprator{
+.seprator {
   margin-top: 300px;
 }
 
 .cards {
-    float: right;
-    width: 30%;
-    
-    height: 400px;
-  }
-  .cards img{
-    display: flex;
-    justify-content: right;
+  float: right;
+  width: 30%;
 
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    clear: both;
-  }
-  .empty{
-    height: 400px;
-    width: 40%;
-  }
-  hr{
-    margin-top: 70px;
-  }
+  height: 400px;
+}
+.cards img {
+  display: flex;
+  justify-content: right;
+}
+.row:after {
+  content: "";
+  clear: both;
+}
+.empty {
+  height: 400px;
+  width: 40%;
+}
+hr {
+  margin-top: 70px;
+} */
+
+
+/* brand.jsx CSS code */
+
+.brandcont {
+  margin-top: 100px;
+}
+
+.brandbtn {
+  margin-left: 200px;
+  background-color: rgb(204, 206, 205);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  height: 40px;
+  font-weight: bold;
+  width: max-content;
+  border-radius: 30px;
+  border: 1px black;
+}
+
+.seprator {
+  margin-top: 300px;
+}
+
+.cards {
+  float: right;
+  width: 30%;
+  height: 400px;
+}
+
+.cards img {
+  justify-content: right; /* This property doesn't apply to img elements; you may want to remove it */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.empty {
+  height: 400px;
+  width: 40%; /* Consider using max-width if needed */
+}
+
+hr {
+  margin-top: 70px;
+}
