@@ -7,6 +7,7 @@ import Brand from './components/Brand';
 import myImage2 from './images/pexels-fox-2-min.jpg';
 import Mission from './components/Mission';
 import Contact from "./components/Contact";
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -27,7 +28,8 @@ function App() {
 <Mission/>
 <img src={myImage2} alt="Description of the image" style={{width:"100%", height:"max-content"}}/>
 <Career/>
-<Contact/>
+{/* <Contact/> */}
+
     </Router>
    </>
     </div>

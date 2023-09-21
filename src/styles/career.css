@@ -32,27 +32,28 @@ margin-right: 100px;
 
   }
 
+.row{
+  position: relative;
+}
+.empty{
+  height: 90px;
+  width: 10%;
+}
 .markhead{
     flex-direction: column;
     text-transform: capitalize;
     font-weight: bold;
     font-size: x-large;
-
     text-align: right;
     display: flex;
-    
-}
-.markhead .markdesc{
     flex-direction: column;
-    text-transform: lowercase;
-    font-weight: bold;
-    font-size: large;
-    padding-top: 50px;
-    text-align: right;
-    display: flex;
-
 }
-
+.markdesc{
+  position: relative;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
 .cuswidecards {
     
     float: right;

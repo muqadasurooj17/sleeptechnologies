@@ -1,5 +1,5 @@
 import React from 'react'
-import {contactimg} from "../images/contact.png";
+import contactimg from "../images/contact.png";
 import "../styles/contact.css";
 export default function  Contact ()
 {
@@ -19,7 +19,8 @@ export default function  Contact ()
         We have partners and teams in multiple locations.
         </div>
         <div className='pict'>
-          <img src={card1} alt="Description of the image" style={{width:"400px", height:"max-content"}}></img>
+          <img src={contactimg} alt="Description of the image" 
+          style={{width:"400px", height:"max-content"}}></img>
         </div>
    
 </>
