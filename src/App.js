@@ -1,6 +1,5 @@
 
 import './App.css';
-import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Career from './components/Career';
 import myImage from './images/pexels-fox-1-min.jpg';
@@ -12,6 +11,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Navbar from './components/Navbar';
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
     <div className="App">
    <>
    <Router>
+    <Navbar/>
 <Hero/>
 <img src={myImage} alt="Description of the image" style={{width:"100%", height:"max-content"}}/>
 <Brand/>
