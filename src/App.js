@@ -14,6 +14,7 @@ import {
   Route
 } from "react-router-dom";
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
 <img src={myImage2} alt="Description of the image" style={{width:"100%", height:"max-content"}}/>
 <Career/>
 <Contact/>
-
+<Footer/>
     </Router>
    </>
     </div>
