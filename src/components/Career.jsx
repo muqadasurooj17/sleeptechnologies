@@ -35,17 +35,9 @@ export default function  Brand ()
       </br>exceue officia officiis tempore!
     </p>
   </div>
-  <div class="mark">
-<div className='markhead'>
-  Marketting
-</div>
-<div className='markdesc'>
-Open positions in our business team.
-</div>
- 
-  </div>      
-  <hr></hr>
-  <div className='mark'>
+
+
+  <div className="marketting">
 <div className='markhead'>
   Marketting
 </div>
@@ -54,9 +46,25 @@ Open positions in our business team.
 </div>
  
   </div> 
-  <div class="widecards" >
+
+<div className='seprator'>
+<hr></hr>
+</div>
   
-  <h2>Outside Sales Representative</h2>
+
+  
+  <div className="customer">
+<div className='cushead'>
+  Customer Service
+</div>
+<div className='cusdesc'>
+Open positions in our business team for Customer sales representatives.
+</div>
+ 
+  </div> 
+     <div class="cuswidecards" >
+  
+  <h2>Customer Service Representative</h2>
   <p>
     Lorem ipsum dolor sit amet consectetur adipisilaborum <br>
     </br>exceue officia officiis tempore!

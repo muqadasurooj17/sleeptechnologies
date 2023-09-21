@@ -12,6 +12,11 @@
     border-radius: 30px;
     border: 1px black;
 }
+
+.seprator{
+  margin-top: 300px;
+}
+
 .cards {
     float: right;
     width: 30%;

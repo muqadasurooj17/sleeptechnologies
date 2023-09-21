@@ -15,21 +15,90 @@ margin-right: 100px;
     font-weight: normal;
     font-size: large;
     margin-top: 50px;
+    margin-bottom: 100px;
     text-align: left;
     display: flex;
-    margin-left: 100px;
+    margin-left: 200px;
     
   }
-  .mark{
-    text-align: left;
+
+  .marketting{
     display: flex;
-    margin-left: 50px;
-    margin-bottom: 200px;
-}
-.mark markhead{
-    margin-top: 50px;
-    text-align: left;
+    margin-right: 100px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 0 200px;
+
+  }
+
+.markhead{
+    flex-direction: column;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: x-large;
+
+    text-align: right;
     display: flex;
-    margin-left: 100px;
-    font-weight: large;
+    
 }
+.markhead .markdesc{
+    flex-direction: column;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: large;
+    padding-top: 50px;
+    text-align: right;
+    display: flex;
+
+}
+
+.cuswidecards {
+    
+    float: right;
+    width: 50%;
+    height: max-content;
+padding-left: 30px;
+margin-right: 100px;
+    padding-bottom: 30px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 20px;
+    margin-bottom: 30px;
+  }
+/* .customer{
+    display: flex;
+    margin-right: 100px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 0 100px;
+
+  }
+
+
+.cushead{
+    margin-top: 100px;
+    flex-direction: column;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: right;
+    display: flex;
+    
+}
+.seprator{
+    margin-top: 300px;
+  }
+
+.cushead .cusdesc{
+    flex-direction: column;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 300px;
+    text-align: right;
+    position: relative;
+
+    display: flex;
+
+} */
