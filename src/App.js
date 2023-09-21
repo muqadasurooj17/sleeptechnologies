@@ -28,7 +28,7 @@ function App() {
 <Mission/>
 <img src={myImage2} alt="Description of the image" style={{width:"100%", height:"max-content"}}/>
 <Career/>
-{/* <Contact/> */}
+<Contact/>
 
     </Router>
    </>

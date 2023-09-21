@@ -9,18 +9,22 @@ export default function  Contact ()
       <button className='brandbtn'>
         Contact</button>
         </div>
-        <div className='talk'>
-          Lets Talk
-        </div>
-        <div className='help'>
-          We are here to help
-        </div>
-        <div className='desc'> 
-        We have partners and teams in multiple locations.
-        </div>
+
+
+      
+        <div className="contentcon">
+        <div > Lets chat</div>
+        <h1>
+        We’re Here to Help
+          </h1>
+          <div> We have partners and teams in multiple locations.
+            </div>
+        
+      </div>
+
         <div className='pict'>
           <img src={contactimg} alt="Description of the image" 
-          style={{width:"400px", height:"max-content"}}></img>
+          style={{width:"100%", height:"600px"}}></img>
         </div>
    
 </>
