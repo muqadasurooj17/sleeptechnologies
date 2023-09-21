@@ -1,43 +1,3 @@
-/* .brandcont {
-  margin-top: 100px;
-}
-.brandbtn {
-  margin-left: 200px;
-  background-color: rgb(204, 206, 205);
-  text-transform: uppercase;
-  text-align: center;
-  padding: 10px;
-  height: 40px;
-  font-weight: bold;
-  width: max-content;
-  border-radius: 30px;
-  border: 1px black;
-}
-.seprator {
-  margin-top: 300px;
-}
-
-.cards {
-  float: right;
-  width: 30%;
-
-  height: 400px;
-}
-.cards img {
-  display: flex;
-  justify-content: right;
-}
-.row:after {
-  content: "";
-  clear: both;
-}
-.empty {
-  height: 400px;
-  width: 40%;
-}
-hr {
-  margin-top: 70px;
-} */
 
 
 /* brand.jsx CSS code */
@@ -57,10 +17,6 @@ hr {
   width: max-content;
   border-radius: 30px;
   border: 1px black;
-}
-
-.seprator {
-  margin-top: 300px;
 }
 
 .cards {
@@ -88,3 +44,44 @@ hr {
 hr {
   margin-top: 70px;
 }
+
+/* Flexbox layout for mobile and tablet */
+@media (max-width: 768px) {
+  .brandcont {
+    margin-top: 30px;
+  }
+
+  .brandbtn {
+    margin: 10px; /* Adjust margin for mobile and tablet */
+    width: max-content;
+  }
+
+  .cards {
+    float: none; /* Remove float for mobile and tablet */
+  }
+
+  .cards img {
+    justify-content: center; 
+    width: 20%;
+    height: 200px;
+    margin-bottom: 30px;/* Center images horizontally */
+  }
+
+  /* Clear floats not needed for flexbox layout */
+  
+  .empty {
+    display: none; /* Hide the empty element on smaller screens */
+  }
+
+  /* Adjust HR styles for smaller screens */
+  hr {
+    margin-top: 10px;
+  }
+
+.widecard p{
+  display: flex;
+  flex-direction:column ;
+  margin-top: 30px;
+
+
+}}
