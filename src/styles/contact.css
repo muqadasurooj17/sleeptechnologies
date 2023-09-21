@@ -17,3 +17,28 @@ justify-content: center;
     font-size: xx-large;
 
 }
+/* ThreeSections.css */
+.threesections {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: max-content;
+    margin-bottom: 50px;
+  }
+  
+  .section {
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    font-size: 16px;
+    color: #333;
+  }
+  

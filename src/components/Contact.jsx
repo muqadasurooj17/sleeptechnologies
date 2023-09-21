@@ -9,9 +9,6 @@ export default function  Contact ()
       <button className='brandbtn'>
         Contact</button>
         </div>
-
-
-      
         <div className="contentcon">
         <div > Lets chat</div>
         <h1>
@@ -25,6 +22,33 @@ export default function  Contact ()
         <div className='pict'>
           <img src={contactimg} alt="Description of the image" 
           style={{width:"100%", height:"600px"}}></img>
+        </div>
+
+
+
+        <div className="threesections">
+      <section className="section">
+        <h2>Sales</h2>
+        <p>Our friendly team is here to help.</p>
+        <p>
+        info@innovasleeptech.com
+          </p>
+      </section>
+
+      <section className="section">
+        <h2>Support</h2>
+        <p>Questions or queries? Get in touch!</p>
+        <p>
+        info@innovasleeptech.com
+        </p>
+      </section>
+
+      <section className="section">
+        <h2>Phone</h2>
+        <p>Mon-Fri from 8 a.m. to 5 p.m.</p>
+        <p> +1 (314) 499-8869</p>
+      </section>
+
         </div>
    
 </>

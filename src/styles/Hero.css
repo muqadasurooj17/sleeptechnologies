@@ -5,24 +5,14 @@
 height: 800px;
 
 }
-/* .description{
 
-    padding:200px;
-    text-align: center;
-    align-items: center;
-color: white;
-
-font-style: normal;
-font-size: xx-large;
-font-weight: bolder;
-} */
 .description {
     display: flex;
     justify-content: center; /* Horizontally center the content */
     align-items: center; /* Vertically center the content */
     height: 100vh; /* 100% of the viewport height to center vertically */
     color: white;
-    font-size: xx-large;
+    font-size: 60px;
     font-weight: bolder; /* You can use "bold" for font-weight */
     font-style: italic; /* You can use "italic" for font-style */
   }
