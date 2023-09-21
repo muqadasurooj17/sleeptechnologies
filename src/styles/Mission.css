@@ -1,19 +1,20 @@
-.missionhead{
-    flex-direction: column;
-text-transform: capitalize;
-font-weight: normal;
-font-size: xx-large;
-margin-top: 50px;
-text-align: left;
-display: flex;
-margin-left: 100px;
-margin-bottom: 200px;
+
+.missioncontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.missionsubhead{
+/* Common styles for both main heading and subheading */
+.missionhead,
+.missionsubhead {
   flex-direction: column;
-  text-transform: lowercase;
+  text-transform: capitalize;
   font-weight: normal;
-  font-size: large;
+  font-size: xx-large;
   margin-top: 50px;
   text-align: left;
   display: flex;
@@ -21,29 +22,41 @@ margin-bottom: 200px;
   margin-bottom: 200px;
 }
 
-.missioncont{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex: 2;
-  }
-  .missioncont .leftside {
-    width: max-content;
-    height: 100%;
-    
-    display: flex;
-    text-align: left;
+/* Main heading specific styles */
+.mission-heading {
+  font-size: xx-large;
+  font-weight: normal; /* Main heading font weight */
+}
+
+/* Subheading specific styles */
+.missionsubhead {
+  font-size: large;
+  font-weight: normal; /* Subheading font weight */
+  text-transform: lowercase; /* Subheading text-transform */
+ 
+}
+
+.right-side{
+align-items: center;
+font-weight: bolder;
+font-size: xx-large;
+margin-right: 100px;
+line-height: 30px;
+padding: 10px;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  /* Adjust for smaller screens */
+  .missioncontainer {
     flex-direction: column;
   }
-  
-  .missioncont .rightside {
-    flex-direction: column;
-    width:max-content;
-    height: 100%;
-    display: flex;
-    text-align: right;
-    justify-content: right;
+  .heading,
+  .paragraph {
+    flex-basis: 100%;
   }
-  hr{
-    margin-top: 70px;
-  }
+}
